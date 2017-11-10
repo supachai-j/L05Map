@@ -78,6 +78,34 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             }
         });
 
+        ImageButton imb_goto_cat_bang_rak  = (ImageButton) findViewById(R.id.lo_imb_goto_cat_bang_rak);
+        imb_goto_cat_bang_rak.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String uri;
+                uri = mapIntent(current_location, getString(R.string.strXML_cat_bang_rak_loc));
+                if (uri != null) {
+                    Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
+                    startActivity(intent);
+                }
+
+            }
+        });
+
+        ImageButton imb_goto_cat_min_buri = (ImageButton) findViewById(R.id.lo_imb_goto_cat_min_buri);
+        imb_goto_cat_min_buri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String uri;
+                uri = mapIntent(current_location, getString(R.string.strXML_cat_min_buri_loc));
+                if (uri != null) {
+                    Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
+                    startActivity(intent);
+                }
+
+            }
+        });
+
     }
     public void gotoPage(Class dest_class, boolean transition) {
         Intent subIntent = new Intent(getApplicationContext(), dest_class);

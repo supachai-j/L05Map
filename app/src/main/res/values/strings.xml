@@ -2,10 +2,14 @@
     <string name="app_name">L05Map</string>
     <string name="strXML_goto_cat_lak_si_label">Go to CAT Lak Si</string>
     <string name="strXML_goto_cat_nonthaburi_label">Go to CAT Nonthaburi</string>
+    <string name="strXML_goto_cat_bang_rak_label">Go to CAT BangRak</string>
+    <string name="strXML_goto_cat_min_buri_label">Go to CAT MinBuri</string>
 
     <string name="strXML_default_loc">13.7651668,100.5378949</string>
     <string name="strXML_cat_lak_si_loc">13.8839463,100.5702962</string>
     <string name="strXML_cat_nonthaburi_loc">13.8644807,100.5177682</string>
+    <string name="strXML_cat_bang_rak_loc">13.7272336,100.5136249</string>
+    <string name="strXML_cat_min_buri_loc">13.816185,100.7329293</string>
 
     <string name="strXML_your_current_toast">Your location:\n[Lat,Long]:%1$s</string>
     <string name="strXML_can_not_get_location_toast">Can not get your current location</string>
