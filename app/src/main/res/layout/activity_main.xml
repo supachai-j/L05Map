@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="andriod.training.cat.com.l05map.MainActivity">
+
+    <ImageButton
+        android:id="@+id/lo_imb_goto_cat_lak_si"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/im_view01"
+        android:contentDescription="@null" />
+    <ImageButton
+        android:id="@+id/lo_imb_goto_cat_nonthaburi"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/im_view02"
+        android:contentDescription="@null"
+        android:layout_below="@+id/lo_imb_goto_cat_lak_si"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
